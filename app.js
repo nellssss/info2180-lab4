@@ -1,20 +1,3 @@
-/*document.addEventListener("DOMContentLoaded", function(){
-    document.getElementById('button').addEventListener('click', function() {
-        const dres = document.getElementById('result');
-        const userfld = document.getElementById('searchbar').trim();
-
-
-        fetch("superheroes.php?query=" + encodeURIComponent(query))
-            .then(res => res.text())
-            .then data => {
-                dres.innerHTML = data;
-            })
-            .catch(error => {
-                console.error(error);
-            });
-
-});*/
-
 document.addEventListener("DOMContentLoaded", function(){
     document.getElementById('button').addEventListener('click', function(){
         
@@ -29,5 +12,5 @@ document.addEventListener("DOMContentLoaded", function(){
         .catch(error => {
                 console.error(error);
             });
-    })
-})
+    });
+});
