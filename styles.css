@@ -1,22 +1,42 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #B29FC9;
+}
+
 .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'middle middle middle';
+}
+.title{
+    grid-area: header;
+    padding: 50px;
+    background-color: #39A853;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+.inst {
+    grid-area: middle;
+    padding-left: 25%;
+    padding-right: 10%;
 }
 
 form {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    align-items: center; 
 }
 
 button {
     padding: 10px 20px;
     font-size: 12px;
+    background-color: #BEED3B;
+    border-radius: 6px;
 }
 
 input {
-    padding: 10px 40px;
+    padding: 10px 55px;
+    border-radius: 6px;
 }

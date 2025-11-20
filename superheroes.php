@@ -94,7 +94,7 @@ if ($query === "") {  //If Empty show full list
         } 
 
     } else {
-        echo "<strong>SUPERHERO NOT FOUND</strong></p>";
+        echo "<p style='color:red;'><strong>SUPERHERO NOT FOUND</strong></p>";
     }
         
     }
